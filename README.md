@@ -38,7 +38,7 @@ Key Observations
 4. Gender Distribution:
    Gender breakdown revealed a higher prevalence of males in the dataset.
 Correlation Analysis
-   A correlation heatmap highlighted:
+A correlation heatmap highlighted:
 1. Positive correlation between chest pain type (cp) and heart disease.
 2. Negative correlation between exercise-induced angina (exang) and heart disease.
   Feature Distributions
