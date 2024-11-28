@@ -9,21 +9,21 @@ The dataset used for this project is publicly available and contains 14 features
 1. Age: Patient's age.
 2. Sex: Gender of the patient (1 = Male, 0 = Female).
 3. 3.cp (Chest Pain Type):
-3.1: Typical angina
-3.2: Atypical angina
-3.3: Non-anginal pain
-3.4: Asymptomatic
-4. trtbps: Resting blood pressure (mm Hg).
-5. chol: Serum cholesterol (mg/dl).
-6. fbs: Fasting blood sugar > 120 mg/dl (1 = True, 0 = False).
-7. restecg: Resting electrocardiographic results.
-8. thalachh: Maximum heart rate achieved.
-9. exang: Exercise-induced angina (1 = Yes, 0 = No).
-10. oldpeak: ST depression induced by exercise relative to rest.
-11. slp: Slope of the peak exercise ST segment.
-12. ca: Number of major vessels colored by fluoroscopy.
-13. thal: Thalassemia (1 = Normal, 2 = Fixed defect, 3 = Reversible defect).
-14. output: Target variable (1 = At risk of heart disease, 0 = Not at risk).
+   3.1: Typical angina
+   3.2: Atypical angina
+   3.3: Non-anginal pain
+   3.4: Asymptomatic
+5. trtbps: Resting blood pressure (mm Hg).
+6. chol: Serum cholesterol (mg/dl).
+7. fbs: Fasting blood sugar > 120 mg/dl (1 = True, 0 = False).
+8. restecg: Resting electrocardiographic results.
+9. thalachh: Maximum heart rate achieved.
+10. exang: Exercise-induced angina (1 = Yes, 0 = No).
+11. oldpeak: ST depression induced by exercise relative to rest.
+12. slp: Slope of the peak exercise ST segment.
+13. ca: Number of major vessels colored by fluoroscopy.
+14. thal: Thalassemia (1 = Normal, 2 = Fixed defect, 3 = Reversible defect).
+15. output: Target variable (1 = At risk of heart disease, 0 = Not at risk).
 # Data Analysis and Visualizations
 Exploratory Data Analysis (EDA)
 Null Values: The dataset was checked for missing values, and none were found.
