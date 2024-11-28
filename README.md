@@ -47,6 +47,17 @@ KDE plots were used to visualize the distribution of features like:
 2. Cholesterol (Chol)
 3. Maximum Heart Rate (Thalachh)
 4. Resting Blood Pressure (Trtbps)
+# Tableau Dashboard
+A Tableau dashboard was created to summarize and visualize key insights from the dataset.
+Features of the Dashboard:
+1. Key Metrics:
+Number of heart patients: 303
+Percentage of heart patients: 54%
+2. Visuals:
+Distribution of patients across age groups.
+Gender-based analysis of heart disease.
+Correlation between cholesterol and blood pressure.
+Relationship between heart rate, blood pressure, and age.
 # Machine Learning Models
 Data Preprocessing
 1. Splitting the dataset into training (80%) and testing (20%) sets.
