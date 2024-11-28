@@ -37,42 +37,42 @@ Key Observations
    Visualized using a pie chart, showing the proportion of patients with and without heart disease.
 4. Gender Distribution:
    Gender breakdown revealed a higher prevalence of males in the dataset.
- *Correlation Analysis*
+ Correlation Analysis
    A correlation heatmap highlighted:
-6. Positive correlation between chest pain type (cp) and heart disease.
-   Negative correlation between exercise-induced angina (exang) and heart disease.
-7. Feature Distributions
+1. Positive correlation between chest pain type (cp) and heart disease.
+2. Negative correlation between exercise-induced angina (exang) and heart disease.
+  Feature Distributions
    KDE plots were used to visualize the distribution of features like:
-8. Age
-Cholesterol (Chol)
-Maximum Heart Rate (Thalachh)
-Resting Blood Pressure (Trtbps)
+1. Age
+2. Cholesterol (Chol)
+3. Maximum Heart Rate (Thalachh)
+4. Resting Blood Pressure (Trtbps)
 # Machine Learning Models
 Data Preprocessing
-Splitting the dataset into training (80%) and testing (20%) sets.
-Standardizing features using StandardScaler to normalize data.
+1. Splitting the dataset into training (80%) and testing (20%) sets.
+2. Standardizing features using StandardScaler to normalize data.
 Models Implemented
-Logistic Regression:
+1. Logistic Regression:
 Simplicity and interpretability make it a good baseline model.
 Achieved accuracy: 75%
-Random Forest Classifier:
+2. Random Forest Classifier:
 A robust ensemble learning method, particularly effective for tabular data.
 Achieved accuracy: 80%
-Support Vector Machine (SVM):
+3. Support Vector Machine (SVM):
 Kernel trick employed for nonlinear classification.
 Achieved accuracy: 77%
 # Model Evaluation
 Each model was evaluated using:
-Classification Report:
+1. Classification Report:
 Provided precision, recall, F1-score, and support for each class.
-Confusion Matrix:
+2. Confusion Matrix:
 Visualized the model's performance for positive and negative cases.
-Accuracy Score:
+3. Accuracy Score:
 Overall model performance metric.
 # Summary of Results
 Model	Accuracy
-Logistic Regression	75%
-Random Forest 80%
-SVM	77%
+1. Logistic Regression	75%
+2. Random Forest 80%
+3. SVM	77%
 # Conclusion
 This project demonstrates the use of machine learning for predicting heart attack risk based on patient data. Random Forest emerged as the most accurate model, showcasing its capability to handle complex data relationships.
