@@ -6,24 +6,24 @@ This project involves analyzing heart attack datasets and building predictive mo
 The dataset used for this project is publicly available and contains 14 features related to heart health. Key attributes include age, sex, cholesterol levels, maximum heart rate, and others, along with the target variable output (1 = Presence of heart disease, 0 = Absence of heart disease).
 
 # Key Features
-Age: Patient's age.
-Sex: Gender of the patient (1 = Male, 0 = Female).
-cp (Chest Pain Type):
-1: Typical angina
-2: Atypical angina
-3: Non-anginal pain
-4: Asymptomatic
-trtbps: Resting blood pressure (mm Hg).
-chol: Serum cholesterol (mg/dl).
-fbs: Fasting blood sugar > 120 mg/dl (1 = True, 0 = False).
-restecg: Resting electrocardiographic results.
-thalachh: Maximum heart rate achieved.
-exang: Exercise-induced angina (1 = Yes, 0 = No).
-oldpeak: ST depression induced by exercise relative to rest.
-slp: Slope of the peak exercise ST segment.
-ca: Number of major vessels colored by fluoroscopy.
-thal: Thalassemia (1 = Normal, 2 = Fixed defect, 3 = Reversible defect).
-output: Target variable (1 = At risk of heart disease, 0 = Not at risk).
+1. Age: Patient's age.
+2. Sex: Gender of the patient (1 = Male, 0 = Female).
+3.cp (Chest Pain Type):
+3.1: Typical angina
+3.2: Atypical angina
+3.3: Non-anginal pain
+3.4: Asymptomatic
+4. trtbps: Resting blood pressure (mm Hg).
+5. chol: Serum cholesterol (mg/dl).
+6. fbs: Fasting blood sugar > 120 mg/dl (1 = True, 0 = False).
+7. restecg: Resting electrocardiographic results.
+8. thalachh: Maximum heart rate achieved.
+9. exang: Exercise-induced angina (1 = Yes, 0 = No).
+10. oldpeak: ST depression induced by exercise relative to rest.
+11. slp: Slope of the peak exercise ST segment.
+12. ca: Number of major vessels colored by fluoroscopy.
+13. thal: Thalassemia (1 = Normal, 2 = Fixed defect, 3 = Reversible defect).
+14. output: Target variable (1 = At risk of heart disease, 0 = Not at risk).
 # Data Analysis and Visualizations
 Exploratory Data Analysis (EDA)
 Null Values: The dataset was checked for missing values, and none were found.
