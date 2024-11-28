@@ -26,24 +26,24 @@ The dataset used for this project is publicly available and contains 14 features
 15. output: Target variable (1 = At risk of heart disease, 0 = Not at risk).
 # Data Analysis and Visualizations
 Exploratory Data Analysis (EDA)
-Null Values: The dataset was checked for missing values, and none were found.
-Summary Statistics: Statistical summaries provided insights into feature distributions.
+1. Null Values: The dataset was checked for missing values, and none were found.
+2. Summary Statistics: Statistical summaries provided insights into feature distributions.
 Key Observations
-ST Depression (Oldpeak):
-Patients with heart disease exhibited lower average ST depression (1/3rd of negative patients).
-Maximum Heart Rate (Thalach):
-Positive patients exhibited a higher average maximum heart rate.
-Output Distribution:
-Visualized using a pie chart, showing the proportion of patients with and without heart disease.
-Gender Distribution:
-Gender breakdown revealed a higher prevalence of males in the dataset.
-Correlation Analysis
-A correlation heatmap highlighted:
-Positive correlation between chest pain type (cp) and heart disease.
-Negative correlation between exercise-induced angina (exang) and heart disease.
-Feature Distributions
-KDE plots were used to visualize the distribution of features like:
-Age
+1. ST Depression (Oldpeak):
+   Patients with heart disease exhibited lower average ST depression (1/3rd of negative patients).
+2. Maximum Heart Rate (Thalach):
+   Positive patients exhibited a higher average maximum heart rate.
+3. Output Distribution:
+   Visualized using a pie chart, showing the proportion of patients with and without heart disease.
+4. Gender Distribution:
+   Gender breakdown revealed a higher prevalence of males in the dataset.
+ *Correlation Analysis*
+   A correlation heatmap highlighted:
+6. Positive correlation between chest pain type (cp) and heart disease.
+   Negative correlation between exercise-induced angina (exang) and heart disease.
+7. Feature Distributions
+   KDE plots were used to visualize the distribution of features like:
+8. Age
 Cholesterol (Chol)
 Maximum Heart Rate (Thalachh)
 Resting Blood Pressure (Trtbps)
