@@ -37,12 +37,12 @@ Key Observations
    Visualized using a pie chart, showing the proportion of patients with and without heart disease.
 4. Gender Distribution:
    Gender breakdown revealed a higher prevalence of males in the dataset.
- Correlation Analysis
+Correlation Analysis
    A correlation heatmap highlighted:
 1. Positive correlation between chest pain type (cp) and heart disease.
 2. Negative correlation between exercise-induced angina (exang) and heart disease.
   Feature Distributions
-   KDE plots were used to visualize the distribution of features like:
+KDE plots were used to visualize the distribution of features like:
 1. Age
 2. Cholesterol (Chol)
 3. Maximum Heart Rate (Thalachh)
