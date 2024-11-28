@@ -8,7 +8,7 @@ The dataset used for this project is publicly available and contains 14 features
 # Key Features
 1. Age: Patient's age.
 2. Sex: Gender of the patient (1 = Male, 0 = Female).
-3.cp (Chest Pain Type):
+3. 3.cp (Chest Pain Type):
 3.1: Typical angina
 3.2: Atypical angina
 3.3: Non-anginal pain
